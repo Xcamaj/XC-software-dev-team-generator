@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "name": "xc-software-dev-team-generator",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xcamaj/XC-software-dev-team-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xcamaj/XC-software-dev-team-generator/issues"
+  },
+  "homepage": "https://github.com/Xcamaj/XC-software-dev-team-generator#readme"
+}
