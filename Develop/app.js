@@ -10,6 +10,7 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+
 const employeeQuestions = ([
     {
         type: 'input',
@@ -27,6 +28,37 @@ const employeeQuestions = ([
         message: 'Enter employee email.'
     },
 ])
+
+const engineerQuestion = ([
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter Github username.'
+    }
+])
+
+const internQuestion = ([
+    {
+        type: 'input',
+        name: 'school',
+        message: 'Enter Name of school.'
+    }
+])
+
+const managerQuestion = ([
+    {
+        type: 'input',
+        name: 'office',
+        message: 'Enter office number.'
+    }
+])
+
+// function generateEmployees() {
+//     const inputFromUsers = inquirer.prompt(employeeQuestions);
+//     const { name, id, email } = userInfo;
+// }
+generateEmployees()
+
 
 
 // Write code to use inquirer to gather information about the development team members,
